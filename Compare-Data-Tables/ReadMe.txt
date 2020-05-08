@@ -1,0 +1,3 @@
+This workflow compares each value from the first excel file (Netball team A) to the second excel File (Netball Team B). The outter for each will take one row from the Team A and go to the inner For each row which will go through all rows in the Team B datatable comparing the value from outter loop to each in inner loop. To understand this better, open the two files and see what it has and then run this work flow. it compares ages.
+
+inside the If activity i have put a break statement that will say if you found a match break and move to the next row, if you remove the break activity. it will continue searching even after finding the match, it will continue until the end.
